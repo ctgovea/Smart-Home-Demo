@@ -5,7 +5,7 @@ const awsparams = {
     "aws_project_region": "us-east-1",
     "aws_cloud_logic_custom": [
         {
-            "name": "AmplifyWebApp",
+            "name": "SmartHomeDemoAPI-dev",
             "endpoint": "https://ivds6j6np6.execute-api.us-east-1.amazonaws.com/dev",
             "region": "us-east-1"
         }
