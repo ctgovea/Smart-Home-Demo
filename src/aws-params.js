@@ -5,7 +5,7 @@ const awsparams = {
     "aws_project_region": "us-east-1",
     "aws_cloud_logic_custom": [
         {
-            "name": "AmplifyWebApp",
+            "name": "SmartHomeDemoWebApp-dev",
             "endpoint": "https://ivds6j6np6.execute-api.us-east-1.amazonaws.com/dev",
             "region": "us-east-1"
         }
@@ -15,10 +15,10 @@ const awsparams = {
     "aws_user_pools_web_client_id": "7u646c6k4gamo31gfn90rqe2mp",
     "oauth": {},
     "app_linking": {
-        "COGNITO_AUTH_URL": 'https://carlos-smart-home-demo.auth.us-east-1.amazoncognito.com/oauth2/authorize',
-        "LWA_CLIENT_ID": 'amzn1.application-oa2-client.12d633daffbe43a19b196c05d60914ab',
-        "COGNITO_ALEXA_APP_CLIENT_ID": '6rqp05tsalsf0cr4s8ai442hlm',
-        "WEB_APP_URL": 'https://master.d2ggj6opg8a13q.amplifyapp.com'
+      "COGNITO_AUTH_URL": 'Value for your Cognito Authorization URL', 
+      "LWA_CLIENT_ID": 'Value for LWA Client ID', 
+      "COGNITO_ALEXA_APP_CLIENT_ID": 'Value for Cognito Alexa App Client ID', 
+      "WEB_APP_URL": 'Value for Web App URL'
     }
 };
 
